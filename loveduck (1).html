@@ -1,83 +1,123 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Love Duck ($LVD)</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(to bottom, #fff8dc, #f0e5ff);
+      font-family: 'Comic Sans MS', cursive;
+      margin: 0;
+      background: #fffbe6;
       color: #333;
       text-align: center;
-      padding: 2rem;
     }
     header {
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 1rem;
+      background: #fef08a;
+      padding: 40px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
-    .tagline {
-      font-size: 1.25rem;
-      margin-bottom: 2rem;
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
     }
-    .countdown, .info, .roadmap, .links {
-      margin: 2rem 0;
+    p {
+      font-size: 1.2em;
     }
-    .section-title {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      color: #8a2be2;
+    .btn {
+      background: #facc15;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 30px;
+      margin: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: 0.3s;
     }
-    .info p, .roadmap ul, .links a {
-      margin: 0.5rem 0;
+    .btn:hover {
+      background: #eab308;
+    }
+    section {
+      padding: 40px 20px;
+    }
+    .tokenomics {
+      background: #fffde7;
+    }
+    .meme-gallery img {
+      width: 100px;
+      margin: 10px;
+      border-radius: 10px;
     }
     footer {
-      margin-top: 4rem;
-      font-size: 0.9rem;
-      color: #777;
+      background: #fef08a;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .link-group a {
+      margin: 0 10px;
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    input[type="email"] {
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      width: 250px;
+      margin-top: 10px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    🦆 Love Duck ($LVD)
+    <h1>Love Duck 💛</h1>
+    <p>The cutest meme coin on Solana. Made with love, memed with chaos 🐤</p>
+    <img src="https://i.imgur.com/sU4ZbF9.png" alt="Love Duck" width="120" />
+    <div>
+      <a href="https://x.com/baihaqi_ma85642" target="_blank"><button class="btn">Follow X</button></a>
+      <a href="https://t.me/loveduck" target="_blank"><button class="btn">Join Telegram</button></a>
+    </div>
   </header>
-  <div class="tagline">
-    The most adorable chaos on Solana.<br />Love Duck will accompany you 🦆❤️
-  </div>
 
-  <div class="countdown">
-    <div class="section-title">⏳ Listing Countdown</div>
-    <p>Listing on <strong>10 September 2025</strong></p>
-  </div>
+  <section class="about">
+    <h2>💡 About Love Duck</h2>
+    <p>Ketika seseorang sudah tiba bisa melakukan apa apa terhadap cintanya, maka dia akan menyebarkan cintanya di jaringan web3 dan biarkan komunitas merasakan kehangatan LoveDuck.</p>
+  </section>
 
-  <div class="info">
-    <div class="section-title">📦 Token Info</div>
-    <p>Supply: 1,000,000,000 $LVD</p>
-    <p>Buy/Sell Fee: 2% to Dev Wallet</p>
-    <p>Dev Wallet: <code>TRivM7HGWKoJppv1a9nSGRERvehnKrhzY21a1XotLcL</code></p>
-    <p>Chain: Solana</p>
-  </div>
+  <section class="tokenomics">
+    <h2>📊 Tokenomics</h2>
+    <p><strong>Total Supply:</strong> 1,000,000,000 $LVD</p>
+    <p><strong>Dev Fee:</strong> 2% Buy / 2% Sell</p>
+    <p><strong>LP:</strong> Locked 🔐</p>
+    <p><strong>Fair Launch:</strong> 10 September 2025</p>
+  </section>
 
-  <div class="roadmap">
-    <div class="section-title">🗺️ Roadmap</div>
-    <ul style="list-style: none; padding: 0;">
-      <li>✅ Build community</li>
-      <li>🔜 Deploy token & list</li>
-      <li>🔜 Airdrop & marketing</li>
-      <li>🔜 Expand ecosystem (maybe NFT?)</li>
-    </ul>
-  </div>
+  <section class="meme-gallery">
+    <h2>🤣 Meme Gallery</h2>
+    <div>
+      <img src="https://i.imgur.com/3kGbXOp.png" alt="Duck Meme 1" />
+      <img src="https://i.imgur.com/qFQgD7E.png" alt="Duck Meme 2" />
+    </div>
+  </section>
 
-  <div class="links">
-    <div class="section-title">🔗 Connect With Us</div>
-    <a href="https://x.com/baihaqi_ma85642" target="_blank">🐦 Twitter</a>
-  </div>
+  <section class="links">
+    <h2>🔗 Resources</h2>
+    <div class="link-group">
+      <a href="https://github.com/depbai/Loveduck" target="_blank">GitHub</a>
+      <a href="https://dexscreener.com" target="_blank">Dexscreener</a>
+      <a href="https://depbai.github.io/Loveduck/LoveDuck_Whitepaper.pdf" target="_blank">Whitepaper (PDF)</a>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>📩 Stay in Touch</h2>
+    <p>Submit your email to join the early quackers:</p>
+    <input type="email" placeholder="your@email.com" />
+  </section>
 
   <footer>
-    Made with ❤️ by the Duck Army
+    <p>© 2025 Love Duck ($LVD). Built with love by Fahtur & Depp 🐥</p>
   </footer>
+
 </body>
 </html>
